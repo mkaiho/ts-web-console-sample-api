@@ -1,0 +1,21 @@
+version: "3"
+services:
+  api:
+    image: node:fermium-buster
+    container_name: ts-web-console-sample-api
+    working_dir: /home/ts-web-console-sample-api
+    ports:
+      - 3001:3001
+    tty: true
+    volumes:
+      - .:/home/ts-web-console-sample-api
+      - node_modules_volume:/home/ts-web-console-sample-api/node_modules
+    networks:
+      - web-console-sample
+
+volumes:
+  node_modules_volume:
+
+networks:
+  web-console-sample:
+    external: true

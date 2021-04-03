@@ -1,0 +1,21 @@
+{
+  "name": "ts-web-console-sample-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkaiho/ts-web-console-sample-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkaiho/ts-web-console-sample-api/issues"
+  },
+  "homepage": "https://github.com/mkaiho/ts-web-console-sample-api#readme"
+}

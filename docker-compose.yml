@@ -1,6 +1,6 @@
 version: "3"
 services:
-  api:
+  backend-app:
     image: node:fermium-buster
     container_name: ts-web-console-sample-api
     working_dir: /home/ts-web-console-sample-api

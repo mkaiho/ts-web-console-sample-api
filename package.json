@@ -6,7 +6,8 @@
     "start": "node ./dist/server.js",
     "build": "tsc",
     "test": "jest --passWithNoTests",
-    "coverage": "jest --passWithNoTests --coverage"
+    "coverage": "jest --passWithNoTests --coverage",
+    "lint": "npx eslint src/"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

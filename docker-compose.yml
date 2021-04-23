@@ -1,4 +1,4 @@
-version: "3"
+version: '3'
 services:
   backend-app:
     image: node:fermium-buster
@@ -10,6 +10,8 @@ services:
     volumes:
       - .:/home/ts-web-console-sample-api
       - node_modules_volume:/home/ts-web-console-sample-api/node_modules
+    env_file:
+      - ./docker/backend_app/env_files/development.env
     networks:
       - web-console-sample
 

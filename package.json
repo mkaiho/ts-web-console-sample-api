@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./dist/server.js",
+    "start": "node ./dist/src/server.js",
     "build": "tsc",
     "test": "jest --passWithNoTests",
     "coverage": "jest --passWithNoTests --coverage",
@@ -13,6 +13,7 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "log4js": "^6.3.0",
     "morgan": "~1.9.1"
   },
   "devDependencies": {

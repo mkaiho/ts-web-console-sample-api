@@ -1,5 +1,4 @@
 import { messageFormatterModule } from '../../../../src/libs/formatter/_message'
-import { LOG_CATEGORY, LOG_LEVEL } from '../../../../src/libs/logger/constants'
 
 describe('formatter', () => {
   describe('_message', () => {
